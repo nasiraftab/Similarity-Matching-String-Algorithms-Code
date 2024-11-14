@@ -1,0 +1,17 @@
+I use pure java to calculate the Jaccard similarity of two Strings.
+
+To calculate the Jaccard similarity between two strings in Java, we’ll interpret the algorithm and refine it slightly to work as expected:
+    Convert both strings to uppercase.
+    Represent each string as a set of characters to ensure unique characters are considered.
+    Count the intersection (common characters) and the union of both sets.
+    Calculate Jaccard similarity as the ratio of the intersection size to the union size.
+Explanation of the Code
+    Uppercase Conversion: Both input strings are converted to uppercase to make the comparison case-insensitive.
+    Set Usage: set1 and set2 hold unique characters from each string.
+    Intersection and Union:
+        intersection set is created by retaining only the common elements between set1 and set2.
+        union set is created by adding all elements from set1 and set2.
+    Jaccard Similarity Calculation: Jaccard similarity is calculated as the size of the intersection divided by the size of the union.
+
+
+sendtonasir@gmail.com
